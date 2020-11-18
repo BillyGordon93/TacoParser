@@ -70,4 +70,4 @@ namespace LoggingKata.Test
 
 
     }
-}
+}                    

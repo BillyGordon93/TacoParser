@@ -38,9 +38,12 @@
 
             // Then, you'll need an instance of the TacoBell class
             // With the name and point set correctly
-            var location = new Point();
+            Point location = new Point();
             location.Latitude = latitude;
             location.Longitude = longitude;
+            
+
+
             var tacoBell = new TacoBell()
             {
                 Name = name,
