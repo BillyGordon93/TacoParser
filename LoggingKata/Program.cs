@@ -65,10 +65,11 @@ namespace LoggingKata
                         locationTwo = locB;
                     }
                 }
+               
                 
                 
             }
-
+            double distanceApart = maxDistance * 0.000621371192;
 
 
             // Now, compare the two using `.GetDistanceTo()`, which returns a double
@@ -76,7 +77,7 @@ namespace LoggingKata
 
             // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
 
-            Console.WriteLine($"{maxDistance}, {locationOne.Name}, {locationTwo.Name}");
+            Console.WriteLine($"The furthest locations are {locationOne.Name} to {locationTwo.Name} with a distance {distanceApart} miles.");
             
         }
     }
